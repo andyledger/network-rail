@@ -1,0 +1,106 @@
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+#main {
+  @apply tw-overflow-x-hidden tw-w-full;
+
+  > .wp-block-image {
+    margin-bottom: 1em;
+  }
+}
+
+.tw-children-underline {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.tw-children-font-bold {
+  a {
+    font-weight: bold;
+  }
+}
+
+.tw-arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+}
+
+/**
+ * Style wp_list_pages tree in sidebar
+ */
+.pagenav {
+  display: block;
+
+  & > ul > li {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    font-size: 14px;
+
+    ul {
+      font-weight: normal;
+      padding-left: 1.5rem;
+      list-style-type: disc;
+
+      li {
+        margin-bottom: 0.75rem;
+        font-size: 14px;
+      }
+    }
+  }
+
+  li.current_page_item {
+    font-weight: bold;
+  }
+
+  li > a {
+    margin-bottom: 0.75rem;
+    display: block;
+
+    @apply hover:tw-text-hyperlinks hover:tw-underline;
+  }
+
+  & > ul > li ul {
+    display: none;
+  }
+
+  li.current_page_item > ul {
+    display: block;
+  }
+
+  li.current_page_parent > ul {
+    display: block;
+  }
+
+  li.current_page_ancestor > ul {
+    display: block;
+  }
+}
+
+// pending review
+.ais-Panel--noRefinement .ais-Panel-body {
+  @apply tw-hidden;
+}
+
+.ais-SearchBox {
+  @apply tw-w-full;
+}
+
+.site-logo {
+  width: 112px;
+}

@@ -1,0 +1,16 @@
+// In contexts such as `.prose ul`, tailwind styling is not currently applied because the specificity is not
+// high enough. Until that's fixed, this file contains manual overrides by using custom selectors.
+
+.station-retail-directory {
+    .station-retail-directory__list {
+        @apply tw-list-none;
+
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+
+        li {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "key": "group_5bf2025a564c4",
+    "title": "ACF File List Block",
+    "fields": [
+        {
+            "key": "field_5cb70e6668bb9",
+            "label": "Title",
+            "name": "title",
+            "type": "text",
+            "instructions": "Leave it blank if you don't desire a custom title.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5cb70ed3bbc26",
+            "label": "Description",
+            "name": "description",
+            "type": "text",
+            "instructions": "Leave it blank if you don't desire a description.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bf202af8719e",
+            "label": "Files to download",
+            "name": "files_to_download",
+            "type": "post_object",
+            "instructions": "Select the file lists",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "downloads_list"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/nr-acf-file-list"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1555500827
+}

@@ -1,0 +1,383 @@
+$font-nr-icons: "NR" !default;
+
+/* NR Icons */
+@font-face {
+  font-family: 'NR';
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NR_Icons/nrv2.woff2') format('woff2'), url('../fonts/NR_Icons/nrv2.woff') format('woff'), url('../fonts/NR_Icons/nrv2.ttf') format('truetype');
+}
+
+.sow-icon-NR_icons {
+  font-family: $font-nr-icons;
+  display: inline-block;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-NR_icons[data-sow-icon]::before {
+  content: attr(data-sow-icon);
+}
+
+[class^="nr-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: $font-nr-icons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nr-icon-investor_relations::before {
+  content: "\e90c";
+}
+
+.nr-icon-consulting_services::before {
+  content: "\e91d";
+}
+
+.nr-icon-supplying_us::before {
+  content: "\e92c";
+}
+
+.nr-icon-railway_operating_partners::before {
+  content: "\e94a";
+}
+
+.nr-icon-passengers::before {
+  content: "\e94b";
+}
+
+.nr-icon-gsm_r::before {
+  content: "\e94c";
+}
+
+.nr-icon-ex_forces::before {
+  content: "\e94d";
+}
+
+.nr-icon-how_we_recruit::before {
+  content: "\e94e";
+}
+
+.nr-icon-meet_our_people::before {
+  content: "\e94f";
+}
+
+.nr-icon-operations_and_maintance::before {
+  content: "\e950";
+}
+
+.nr-icon-accessibility_at_stations::before {
+  content: "\e900";
+}
+
+.nr-icon-applications_and_diversity::before {
+  content: "\e901";
+}
+
+.nr-icon-apprenticeships::before {
+  content: "\e902";
+}
+
+.nr-icon-arrow_left::before {
+  content: "\e903";
+}
+
+.nr-icon-arrow_left2::before {
+  content: "\e904";
+}
+
+.nr-icon-arrow_right::before {
+  content: "\e905";
+}
+
+.nr-icon-arrow_right2::before {
+  content: "\e906";
+}
+
+.nr-icon-benefits_and_locations::before {
+  content: "\e907";
+}
+
+.nr-icon-careers::before {
+  content: "\e908";
+}
+
+.nr-icon-cc_forms_and_requests::before {
+  content: "\e909";
+}
+
+.nr-icon-clouds::before {
+  content: "\e90a";
+}
+
+.nr-icon-communities::before {
+  content: "\e90b";
+}
+
+.nr-icon-community_rail::before {
+  content: "\e90d";
+}
+
+.nr-icon-contact_us::before {
+  content: "\e90e";
+}
+
+.nr-icon-corporate_services::before {
+  content: "\e90f";
+}
+
+.nr-icon-digital_railway::before {
+  content: "\e910";
+}
+
+.nr-icon-engineering_and_project_management::before {
+  content: "\e911";
+}
+
+.nr-icon-facebook::before {
+  content: "\e912";
+}
+
+.nr-icon-favnr-icon::before {
+  content: "\e913";
+}
+
+.nr-icon-features::before {
+  content: "\e914";
+}
+
+.nr-icon-freight::before {
+  content: "\e915";
+}
+
+.nr-icon-graduates::before {
+  content: "\e916";
+}
+
+.nr-icon-history::before {
+  content: "\e917";
+}
+
+.nr-icon-how_we_are_making_it_happen::before {
+  content: "\e918";
+}
+
+.nr-icon-howw_we_work::before {
+  content: "\e919";
+}
+
+.nr-icon-industry_and_commercial::before {
+  content: "\e91a";
+}
+
+.nr-icon-innovation_and_rail_technology::before {
+  content: "\e91b";
+}
+
+.nr-icon-instagram::before {
+  content: "\e91c";
+}
+
+.nr-icon-latest_news::before {
+  content: "\e91e";
+}
+
+.nr-icon-lineside_neighbours::before {
+  content: "\e91f";
+}
+
+.nr-icon-linkedin::before {
+  content: "\e920";
+}
+
+.nr-icon-magnifying_glass::before {
+  content: "\e921";
+}
+
+.nr-icon-media_resources::before {
+  content: "\e922";
+}
+
+.nr-icon-megaphone::before {
+  content: "\e923";
+}
+
+.nr-icon-networkrails_logo::before {
+  content: "\e924";
+}
+
+.nr-icon-our_culture_of_safety::before {
+  content: "\e925";
+}
+
+.nr-icon-our_property::before {
+  content: "\e926";
+}
+
+.nr-icon-our_railway_upgrade_plan::before {
+  content: "\e927";
+}
+
+.nr-icon-our_safety_vision::before {
+  content: "\e928";
+}
+
+.nr-icon-phone::before {
+  content: "\e929";
+}
+
+.nr-icon-planned_works::before {
+  content: "\e92a";
+}
+
+.nr-icon-planning_a_trip_travel_info::before {
+  content: "\e92b";
+}
+
+.nr-icon-press::before {
+  content: "\e92d";
+}
+
+.nr-icon-publications::before {
+  content: "\e92e";
+}
+
+.nr-icon-transparency_and_ethics::before {
+  content: "\e92f";
+}
+
+.nr-icon-routes::before {
+  content: "\e930";
+}
+
+.nr-icon-running_the_railway::before {
+  content: "\e931";
+}
+
+.nr-icon-safety::before {
+  content: "\e932";
+}
+
+.nr-icon-safety1::before {
+  content: "\e933";
+}
+
+.nr-icon-safety2::before {
+  content: "\e934";
+}
+
+.nr-icon-safety3::before {
+  content: "\e935";
+}
+
+.nr-icon-safety_campaign_and_engagement::before {
+  content: "\e936";
+}
+
+.nr-icon-sustainability_and_csr::before {
+  content: "\e937";
+}
+
+.nr-icon-sustainability_and_environment::before {
+  content: "\e938";
+}
+
+.nr-icon-time_tabling::before {
+  content: "\e939";
+}
+
+.nr-icon-training_and_development::before {
+  content: "\e93a";
+}
+
+.nr-icon-travelling_on_the_railway::before {
+  content: "\e93b";
+}
+
+.nr-icon-travelling_safely::before {
+  content: "\e93c";
+}
+
+.nr-icon-twitter::before {
+  content: "\e93d";
+}
+
+.nr-icon-vision::before {
+  content: "\e93e";
+}
+
+.nr-icon-what_we_do_and_dont_do::before {
+  content: "\e93f";
+}
+
+.nr-icon-what_we_maintain::before {
+  content: "\e940";
+}
+
+.nr-icon-who_are_we::before {
+  content: "\e941";
+}
+
+.nr-icon-disabled_acces::before {
+  content: "\e942";
+}
+
+.nr-icon-facilities::before {
+  content: "\e943";
+}
+
+.nr-icon-food_drink_and_shopping::before {
+  content: "\e944";
+}
+
+.nr-icon-to_and_from_the_station::before {
+  content: "\e945";
+}
+
+.nr-icon-parking::before {
+  content: "\e946";
+}
+
+.nr-icon-redevelopment::before {
+  content: "\e947";
+}
+
+.nr-icon-shield::before {
+  content: "\e948";
+}
+
+.nr-icon-envelope::before {
+  content: "\e949";
+}
+
+.nr-icon-vimeo::before {
+  content: "\e951";
+}
+
+.nr-icon-google-plus::before {
+  content: "\e952";
+}
+
+.nr-icon-pinterest::before {
+  content: "\e953";
+}
+
+.nr-icon-youtube::before {
+  content: "\e954";
+}
+
+.nr-icon-film_camera::before {
+  content: "\e855";
+}

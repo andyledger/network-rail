@@ -1,0 +1,78 @@
+#CybotCookiebotDialog[data-template="bottom"] {
+  position: relative !important;
+  transform: none !important;
+  max-width: none !important;
+  width: 100% !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgba(218, 218, 218, 1);
+  left: 0 !important;
+  box-shadow: none !important;
+}
+
+.page {
+  .CybotCookiebotDialogBodyButton {
+    outline-offset: 3px;
+  }
+
+  #CybotCookiebotDialogFooter {
+    flex-direction: column;
+  }
+
+
+  @media screen and (min-width: 1280px) {
+
+    #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyButtons {
+      max-width: 100%;
+    }
+
+    #CybotCookiebotDialog.CybotEdge .CybotCookiebotDialogContentWrapper {
+      max-width: 100%;
+    }
+
+    #CybotCookiebotDialog.CybotEdge .CybotCookiebotDialogContentWrapper {
+      flex-direction: column;
+    }
+
+    #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonsWrapper {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogPoweredbyCybot {
+      margin-top: 0;
+    }
+
+    #CybotCookiebotDialog #CybotCookiebotDialogBody .CybotCookiebotScrollContainer {
+      padding: 0;
+    }
+
+    #CybotCookiebotDialogHeaderLogosWrapper {
+      align-items: flex-start;
+    }
+
+    #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:not(:first-of-type) {
+      margin-bottom: 0;
+    }
+
+    #CybotCookiebotDialog.CybotEdge {
+      padding: 18px;
+    }
+
+    #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+      padding: 0.75rem;
+    }
+  }
+
+  @media screen and (min-width: 1510px) {
+
+    #CybotCookiebotDialog.CybotEdge:not([lang=ta]):not([lang=bg]):not([lang=is]):not([lang=el]) #CybotCookiebotDialogTabContent {
+      margin: 0;
+    }
+
+    #CybotCookiebotDialog.CybotEdge:not([lang=ta]):not([lang=bg]):not([lang=is]):not([lang=el]) .CybotCookiebotDialogBodyBottomWrapper {
+      padding: 0;
+      margin: 0;
+    }
+
+  }
+}

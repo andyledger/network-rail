@@ -1,0 +1,85 @@
+{
+    "key": "group_5bf2b2878ba82",
+    "title": "ACF Load More Block",
+    "fields": [
+        {
+            "key": "field_5bf2b79b7ad8a",
+            "label": "Section Title",
+            "name": "section_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c4766471a33f",
+            "label": "Select route or region",
+            "name": "select_route",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "national": "National",
+                "eastern": "Eastern",
+                "north-west-central": "North West Central",
+                "scotland": "Scotland",
+                "southern": "Southern",
+                "wales-and-western": "Wales and Western",
+                "anglia": "Eastern: Anglia",
+                "east-coast": "Eastern: East Coast",
+                "east-midlands": "Eastern: East Midlands",
+                "north-and-east": "Eastern: North & East",
+                "central": "North West & Central: Central",
+                "north-west": "North West & Central: North West",
+                "west-coast-mainline-south": "North West & Central: West Coast Mainline South",
+                "kent": "Southern: Kent",
+                "network-rail-high-speed": "Southern: Network Rail Hight Speed",
+                "sussex": "Southern: Sussex",
+                "wessex": "Southern: Wessex",
+                "wales-and-borders": "Wales & Western: Wales & Borders",
+                "western": "Wales & Western: Western"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/nr-acf-load-more"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1606906811
+}

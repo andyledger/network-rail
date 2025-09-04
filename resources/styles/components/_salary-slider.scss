@@ -1,0 +1,41 @@
+.vue-dual-input-slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-between;
+  row-gap: 2.5em;
+
+  @media(min-width: 768px) {
+    gap: 2em;
+    flex-wrap: nowrap;
+  }
+
+  .vue-slider {
+    flex-grow: 1;
+    width: 100% !important;
+
+    @media(min-width: 768px) {
+      width: auto !important;
+    }
+  }
+
+  &__label {
+    flex-grow: 0;
+    text-align: center;
+    width: 66px;
+
+    input {
+      text-align: center;
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+
+    &.is-before {
+      @media(min-width: 768px) {
+        order: -1;
+      }
+    }
+  }
+}

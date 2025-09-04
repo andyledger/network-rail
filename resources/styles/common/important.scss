@@ -1,0 +1,91 @@
+// https://www.w3.org/International/questions/qa-escapes#css_identifiers
+
+.tw-mb-8-i {
+  margin-bottom: 2rem !important;
+}
+
+.tw-text-base-i {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+@media (min-width: 576px) {
+  .sm\:tw-xxx {
+
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:tw-text-3xl-i {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+
+  .md\:tw-text-5xl-i {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:tw-xxx {
+
+  }
+}
+
+@media (min-width: 1366px) {
+  .xl\:tw-text-5xl-i {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .\3 2xl\:tw-xxx {
+
+  }
+}
+
+@media (min-width: 1600px) {
+  .\3 3xl\:tw-xxx {
+
+  }
+}
+
+.retailer-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.accordion-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0 !important;
+}
+
+.flickity-enabled:focus-visible {
+  outline: 1px solid blue;
+  outline: 5px auto -webkit-focus-ring-color !important;
+}
+
+.card-link h3 {
+  margin-bottom: 0.25rem !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.card-link p {
+  margin-bottom: 0 !important;
+}
+
+.table-content {
+  p {
+    margin-bottom: 0 !important;
+  }
+}

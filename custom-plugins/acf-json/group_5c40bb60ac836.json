@@ -1,0 +1,89 @@
+{
+    "key": "group_5c40bb60ac836",
+    "title": "Footer",
+    "fields": [
+        {
+            "key": "field_5c40bb748ecc2",
+            "label": "Social media",
+            "name": "social_media_footer",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5c40bb898ecc3",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "<i class=\"fab fa-facebook-f fa-stack-1x\"><\/i>": "<i class=\"fab fa-facebook-f\"><\/i>",
+                        "<i class=\"fab fa-twitter fa-stack-1x\"><\/i>": "<i class=\"fab fa-twitter\"><\/i>",
+                        "<i class=\"fab fa-linkedin-in fa-stack-1x\"><\/i>": "<i class=\"fab fa-linkedin-in\"><\/i>",
+                        "<i class=\"fab fa-instagram fa-stack-1x\"><\/i>": "<i class=\"fab fa-instagram\"><\/i>",
+                        "<i class=\"fab fa-youtube fa-stack-1x\"><\/i>": "<i class=\"fab fa-youtube\"><\/i>"
+                    },
+                    "allow_null": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_5c40bcca8ecc4",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1551869979
+}

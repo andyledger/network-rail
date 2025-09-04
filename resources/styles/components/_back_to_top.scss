@@ -1,0 +1,44 @@
+.btn-back-to-top {
+  @apply tw-bg-brand-blue tw-inline-flex tw-items-center tw-rounded tw-py-2 tw-pl-4 tw-pr-2 tw-shadow-button tw-text-white tw-uppercase tw-text-sm hover:tw-bg-brand-blue-darker;
+  @apply tw-border-2 tw-border-transparent;
+
+  &:focus-visible {
+    outline: 2px solid #e35100;
+    border: 2px solid #fff;
+  }
+}
+
+.btn-initial {
+  opacity: 0;
+}
+
+.btn-hidden {
+  animation: scaleOut 0.25s;
+  opacity: 0;
+}
+
+.btn-visible {
+  animation: scaleIn 0.25s;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

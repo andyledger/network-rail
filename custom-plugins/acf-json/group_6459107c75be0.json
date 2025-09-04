@@ -1,0 +1,91 @@
+{
+    "key": "group_6459107c75be0",
+    "title": "ACF Jump Links Block",
+    "fields": [
+        {
+            "key": "field_6459107deb253",
+            "label": "Jump Links",
+            "name": "jump_links",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Link",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_64591090eb254",
+                    "label": "Jump Link Hash",
+                    "name": "jump_link_hash",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Each jump link must be unique.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "#",
+                    "append": "",
+                    "parent_repeater": "field_6459107deb253"
+                },
+                {
+                    "key": "field_645910ebeb255",
+                    "label": "Jump Link Title",
+                    "name": "jump_link_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Add a descriptive title for the link",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6459107deb253"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/nr-acf-jump-links"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1683558926
+}

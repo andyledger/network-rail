@@ -1,0 +1,159 @@
+.main-content, .prose {
+  h1, .h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: -0.36px;
+
+    &.tw-mb-0 {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -0.48px;
+    }
+  }
+
+  h2, .h2, .has-huge-font-size {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 118.75% */
+    letter-spacing: -0.32px;
+    margin-bottom: 32px;
+
+    &.tw-mb-0 {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -0.4px;
+    }
+  }
+
+  h3, .h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 27px;
+
+    &.tw-mb-0 {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -0.32px;
+    }
+  }
+
+  h4, .h4, .has-large-font-size {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 127.273% */
+    margin-bottom: 20px;
+
+    &.tw-mb-0 {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  h5, .h5, .has-medium-font-size {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+
+    &.tw-mb-0 {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 14px;
+    }
+  }
+
+  h6, .h6 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 14px;
+
+    &.tw-mb-0 {
+      margin-bottom: 0;
+    }
+  }
+
+  p, li, .p, .li {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    @media (min-width: 768px) {
+      line-height: 28px
+    }
+  }
+
+  p {
+    margin-bottom: 29px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul, ol {
+    margin-top: 14px;
+    margin-bottom: 29px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .tw-text-sm {
+    font-size: 14px;
+  }
+
+  .tw-text-lg, .tw-text-base {
+    font-size: 18px;
+  }
+
+  .stationFacilityItem {
+    margin-top: 32px;
+  }
+
+  .has-small-font-size {
+    @apply tw-text-base;
+  }
+
+  .has-regular-font-size {
+    @apply tw-text-lg;
+  }
+}
+
+.wp-block-heading:not(:first-of-type) {
+  @media (min-width: 768px) {
+    margin-top: 48px;
+  }
+}

@@ -1,0 +1,10 @@
+.slider {
+  &__dot {
+    @apply tw-inline-block tw-mx-3 tw-rounded-full tw-border;
+
+    &:focus-visible {
+      outline: 2px solid #E35100;
+      border: 2px solid #fff;
+    }
+  }
+}

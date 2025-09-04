@@ -1,0 +1,98 @@
+{
+    "key": "group_5d010a2732a30",
+    "title": "ACF UK map regions Block",
+    "fields": [
+        {
+            "key": "field_5d010a273f2cc",
+            "label": "Title",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d036e9402d71",
+            "label": "Colour the regions?",
+            "name": "coloured",
+            "type": "true_false",
+            "instructions": "True: the regions will have different colours with a lighter version of the colour on hover.\r\nFalse: the regions will have the same colour with the same orange colour on hover.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5d010a273f2de",
+            "label": "Regions",
+            "name": "regions",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 5,
+            "max": 5,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5d010a2743732",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "link",
+                    "instructions": "1. Eastern, 2. North West and Central, 3. Scotland, 4. Southern, 5. Wales and Western",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/nr-acf-uk-map-regions"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1560506267
+}

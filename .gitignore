@@ -1,0 +1,17 @@
+/node_modules
+/vendor
+/public
+/storage/logs/
+npm-debug.log
+yarn-error.log
+.env.js
+
+# Exclude specific resource files
+/resources/iRec.txt
+/resources/anglia-map.json
+/resources/bridge-strike-map.json
+/resources/careers.json
+/resources/kent-works-map.json
+/resources/level-crossing-map.json
+/resources/retailers.json
+/resources/apprenticeship-scheme-location-map.json

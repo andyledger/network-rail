@@ -1,0 +1,115 @@
+{
+   "eastern":{
+      "routes":{
+         "anglia":{
+            "title":"Anglia Route",
+            "name":"anglia",
+            "link":{
+               "title":"",
+               "url":"https:\/\/www.google.es",
+               "target":""
+            }
+         },
+         "east-midlands":{
+            "title":"East Midlands Route",
+            "name":"east-midlands",
+            "link":""
+         },
+         "north-east":{
+            "title":"North and East Route",
+            "name":"north-east",
+            "link":""
+         },
+         "east-coast":{
+            "title":"East Coast Route",
+            "name":"east-coast",
+            "link":""
+         }
+      },
+      "title":"Eastern",
+      "name":"eastern",
+      "link":{
+         "title":"",
+         "url":"https:\/\/www.google.es",
+         "target":"_blank"
+      }
+   },
+   "north-west-and-central":{
+      "routes":{
+         "north-west":{
+            "title":"North West Route",
+            "name":"north-west",
+            "link":""
+         },
+         "central":{
+            "title":"Central Route",
+            "name":"central",
+            "link":""
+         },
+         "west-coast":{
+            "title":"West Coast Mainline South Route",
+            "name":"west-coast",
+            "link":""
+         }
+      },
+      "title":"North West and Central",
+      "name":"eastern",
+      "link":""
+   },
+   "scotlands_railway":{
+      "routes":{
+         "scotland":{
+            "title":"Scotland Route",
+            "name":"scotland",
+            "link":""
+         }
+      },
+      "title":"Scotland's Railway",
+      "name":"scotland",
+      "link":""
+   },
+   "southern":{
+      "routes":{
+         "kent":{
+            "title":"Kent Route",
+            "name":"kent",
+            "link":""
+         },
+         "sussex":{
+            "title":"Sussex Route",
+            "name":"sussex",
+            "link":""
+         },
+         "wessex":{
+            "title":"Wessex Route",
+            "name":"wessex",
+            "link":""
+         },
+         "high-speed":{
+            "title":"Network Rail High Speed",
+            "name":"high-speed",
+            "link":""
+         }
+      },
+      "title":"Southern",
+      "name":"southern",
+      "link":""
+   },
+   "wales-and-western":{
+      "routes":{
+         "wales":{
+            "title":"Wales Route",
+            "name":"wales",
+            "link":""
+         },
+         "western":{
+            "title":"Western Route",
+            "name":"western",
+            "link":""
+         }
+      },
+      "title":"Wales & Western",
+      "name":"southern",
+      "link":""
+   }
+}

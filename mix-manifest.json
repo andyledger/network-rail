@@ -1,0 +1,11 @@
+{
+    "/scripts/app.js": "/scripts/app.js",
+    "/scripts/ie11.js": "/scripts/ie11.js",
+    "/scripts/customizer.js": "/scripts/customizer.js",
+    "/scripts/editor.js": "/scripts/editor.js",
+    "/scripts/manifest.js": "/scripts/manifest.js",
+    "/scripts/Careers.js": "/scripts/Careers.js",
+    "/styles/app.css": "/styles/app.css",
+    "/styles/editor.css": "/styles/editor.css",
+    "/scripts/vendor.js": "/scripts/vendor.js"
+}

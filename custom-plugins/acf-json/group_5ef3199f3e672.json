@@ -1,0 +1,200 @@
+{
+    "key": "group_5ef3199f3e672",
+    "title": "ACF in numbers",
+    "fields": [
+        {
+            "key": "field_5ef349c937936",
+            "label": "In Numbers Infographic",
+            "name": "in_numbers_infographic",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5ef349e837937",
+                    "label": "Number",
+                    "name": "number",
+                    "type": "textarea",
+                    "instructions": "Wrap the part of the content you want to reduce in these span tags\r\n\r\n&lt;span>content&lt;\/span>",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5ef349f637938",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea",
+                    "instructions": "Wrap the part of the content you want to highlight in these span tags\r\n\r\n&lt;span>content&lt;\/span>",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5ef349fd37939",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "bh_ballast": "Ballast",
+                        "bh_bridges": "Bridges",
+                        "bh_freight": "Freight",
+                        "bh_level_crossing": "Level crossing",
+                        "bh_managed_stations": "Managed stations",
+                        "bh_new_platform_extension": "New platform extension",
+                        "bh_ole": "OLE",
+                        "bh_passenger_journeys": "Passenger journeys",
+                        "bh_passenger_services": "Passenger services",
+                        "bh_points": "Points",
+                        "bh_route_miles": "Route miles",
+                        "bh_signal_workstation": "Signal workstation",
+                        "bh_signals": "Signals",
+                        "bh_track": "Track"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ef34a053793a",
+                    "label": "Style",
+                    "name": "style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "left": "left",
+                        "right": "right",
+                        "full-width": "full-width"
+                    },
+                    "default_value": "left",
+                    "allow_null": 1,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ef34a2e3793b",
+                    "label": "Number 2",
+                    "name": "number_2",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ef34a053793a",
+                                "operator": "==",
+                                "value": "full-width"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5ef34a3a3793c",
+                    "label": "Description 2",
+                    "name": "description_2",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ef34a053793a",
+                                "operator": "==",
+                                "value": "full-width"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/nr-acf-in-numbers"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1594910723
+}

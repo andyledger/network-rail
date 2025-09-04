@@ -1,0 +1,2 @@
+<safe-spaces class="tw-bg-gray-dark">Together we can end domestic abuse</safe-spaces>
+<?php /**PATH /Users/jerometoole/code/wholegrain-projects/network-rail/wp-content/themes/network-rail/resources/views/partials/safe-spaces.blade.php ENDPATH**/ ?>

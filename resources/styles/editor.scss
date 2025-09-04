@@ -1,0 +1,32 @@
+@import "nr-icons";
+@import "common/blocks";
+@import 'common/temporary-tailwind-overrides';
+
+.block-editor-block-list__layout {
+  @apply tw-font-sans;
+}
+
+.wp-block {
+  @apply tw-max-w-screen-lg;
+
+  &.editor-post-title__block .editor-post-title__input {
+    @apply tw-font-sans #{!important};
+  }
+}
+
+.acf-button-group {
+  flex-wrap: wrap !important;
+  font-size: 1.7rem;
+
+  label {
+    width: 50px;
+    height: 50px;
+    display: flex !important;
+    align-items: center;
+    flex: 0 1 auto !important;
+  }
+}
+
+img {
+  border: none !important;
+}

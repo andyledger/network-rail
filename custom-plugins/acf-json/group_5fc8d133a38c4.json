@@ -1,0 +1,67 @@
+{
+    "key": "group_5fc8d133a38c4",
+    "title": "ACF Yext station",
+    "fields": [
+        {
+            "key": "field_5fc8d2168a88b",
+            "label": "Station",
+            "name": "station",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "5636": "Birmingham New Street",
+                "5618": "Clapham Junction",
+                "5619": "Guildford",
+                "5620": "London Waterloo",
+                "5621": "London Victoria",
+                "5622": "Reading",
+                "5623": "London Paddington",
+                "5624": "Manchester Piccadilly",
+                "5625": "London Bridge",
+                "5626": "London Liverpool Street",
+                "5627": "Liverpool Lime Street",
+                "5628": "Leeds",
+                "5629": "London King’s Cross",
+                "5630": "Glasgow Central",
+                "5631": "London Euston",
+                "5632": "Edinburgh Waverley",
+                "5633": "London Charing Cross",
+                "5234": "London Cannon Street",
+                "5635": "Bristol Temple Meads",
+                "5637": "London St Pancras International"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/nr-acf-yext"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1612454753
+}

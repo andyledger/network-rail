@@ -1,0 +1,38 @@
+.prose .jump-links, .jump-links {
+  @apply tw-my-10 md:tw-my-20;
+
+  ul {
+    @apply tw-p-0;
+  }
+
+  li {
+    @apply tw-list-none tw-m-0 tw-py-4 tw-border-b tw-border-gray-light;
+
+
+    &:first-of-type {
+      @apply tw-border-t;
+    }
+
+    a {
+      @apply tw-font-bold tw-no-underline tw-text-black tw-text-lg md:tw-text-xl tw-pr-4 hover:tw-text-hyperlinks hover:tw-underline tw-relative;
+      @apply tw-flex tw-justify-between tw-items-center;
+      height: 27px;
+
+      &:after {
+        content: '';
+        background-image: url("data:image/svg+xml,%3Csvg width='28' height='28' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.3334 14.0002L24.9834 11.6502L15.6667 20.9502V0.66687H12.3334V20.9502L3.03341 11.6335L0.666748 14.0002L14.0001 27.3335L27.3334 14.0002Z' fill='%23106AA3'/%3E%3C/svg%3E%0A");
+        height: 27px;
+        width: 27px;
+        display: none;
+      }
+
+      &:hover:after {
+        display: block;
+      }
+    }
+  }
+}
+
+.prose h2.jump-links-heading, .jump-links-heading {
+  @apply tw-flex tw-items-center tw-mb-6;
+}

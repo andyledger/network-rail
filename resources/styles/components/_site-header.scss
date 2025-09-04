@@ -1,0 +1,58 @@
+:root {
+  --site-header--height: 73px;
+
+  @screen md {
+    --site-header--height: 79px;
+  }
+
+  @screen xl {
+    --site-header--height: 84px;
+  }
+}
+
+.site-header {
+  height: var(--site-header--height);
+
+  &__spacer {
+    height: var(--site-header--height);
+  }
+
+  &__inner {
+    grid-template-columns: 1fr min-content 1fr;
+
+    @screen xl {
+      grid-template-columns: min-content 1fr min-content;
+    }
+  }
+
+  .admin-bar & {
+    top: var(--wp-admin--admin-bar--height);
+  }
+
+  &__search {
+    &__input {
+      top: calc(var(--site-header--height) - 5px);
+    }
+  }
+
+  &__hidden {
+    transform: translateY(-100px);
+    transition: transform 500ms ease-in;
+  }
+
+  &__visible {
+    transform: translateY(0);
+    transition: transform 500ms ease-out;
+  }
+}
+
+.the-phone-menu {
+  top: calc(
+    var(--site-header--height) + var(--wp-admin--admin-bar--height, 0px)
+  );
+  height: calc(
+    100% -
+      calc(var(--site-header--height) + var(--wp-admin--admin-bar--height, 0px))
+  );
+  transition-property: transform, visibility;
+}

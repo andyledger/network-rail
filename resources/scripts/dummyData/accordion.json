@@ -1,0 +1,23 @@
+[
+  {
+    "isExpanded": false,
+    "is_icon": true,
+    "icon": "gsm_r",
+    "title": "Lorem ipsum dolor sit amet.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque praesentium architecto consequuntur eos, quasi hic dicta. Ea reiciendis ex, voluptatibus ab, nihil quidem adipisci unde quod, deleniti eius voluptate. Laudantium aliquid dicta perferendis voluptate aut, illum laboriosam eaque, mollitia ad minus id, magni dolores veritatis consectetur praesentium quo quia nulla!"
+  },
+  {
+    "isExpanded": false,
+    "is_icon": false,
+    "icon": "",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "<a href='#'>Lorem ipsum dolor</a> sit amet, consectetur adipisicing elit. Sint hic, ipsam sapiente sunt eius quas veritatis, minus minima deleniti maxi"
+  },
+  {
+    "isExpanded": false,
+    "is_icon": true,
+    "icon": "investor_relations",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint hic, ipsam sapiente sunt eius quas veritatis, minus minima deleniti maxi. <img src='https://picsum.photos/600/400' class='block mx-auto mt-4'/>"
+  }
+]
